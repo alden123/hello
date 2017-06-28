@@ -7,19 +7,32 @@
   };
 }
 
-
 .super {
 
 }
 .content-frame {
-  margin: 50px;
-  height: 50vh;
+  margin: 10px;
+  // height: 50vh;
 }
 .container {
 
   color: black;
+  width: 100vw !important;
+  @media(max-width: $screen-sm) {
+   29      font-size: 30px;
+   30    }
 }
 
+.banner-half {
+  height: 400px !important;
+}
+
+// @media only screen and (max-width: 768px) {
+//     /* For mobile phones: */
+//     [class*="col-"] {
+//         width: 100%;
+//     }
+// }
 .banner {
     color: white;
     text-align: center;
@@ -62,6 +75,10 @@
   background-color: white;
 }
 
+.dropdown {
+    float: right;
+    margin: 10px;
+}
 
 
 /* footer */
